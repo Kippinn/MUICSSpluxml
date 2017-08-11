@@ -1,0 +1,146 @@
+/**
+ * Body CSS
+ */
+
+html,
+body {
+  height: 100%;
+  background: fixed url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+html,
+body,
+input,
+textarea,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+a {
+    color: #F36F21;
+}
+
+
+/**
+ * Header CSS
+ */
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+header ul.mui-list--inline {
+  margin-bottom: 0;
+}
+
+header a {
+  color: white;
+}
+
+
+/**
+ * Content CSS
+ */
+
+#content-wrapper {
+  min-height: 100%;
+
+  /* sticky footer */
+  box-sizing: border-box;
+  margin-bottom: -100px;
+  padding-bottom: 100px;
+}
+
+
+/**
+ * Footer CSS
+ */
+
+footer {
+  box-sizing: border-box;
+  height: 100px;
+  background-color: #eee;
+  background-image: url(http://unkorneglosk.tk/themes/mh-mag-k17/images/unkorneglosktr.png);
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 35px;
+}
+.mui--text-title img{
+	height: 25px;
+    vertical-align: middle;
+}
+.mui-appbar {
+    background-color: #D54B4A;
+    color: #FFF;
+}
+#appbar-more-vert {
+    font-size: 24px;
+    position: relative;
+    top: 3px;
+    width: 31px;
+    height: 31px;
+    line-height: 31px;
+    display: inline-block;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+}
+#appbar-more-vert:hover {
+    background-color: rgba(0,0,0,.27);
+    text-decoration: none;
+}
+.mui--text-body2 {
+		display: none;
+}
+.mui--text-body2 a:hover {
+		text-decoration: none;
+}
+@media (min-width: 544px) {
+	#appbar-more-vert {
+		display: none;
+	}
+	.mui--text-body2 {
+		display: block;
+	    vertical-align: middle;
+	    font-size: 24px;
+	    margin-top: 18px;
+	    text-decoration: none;
+	}
+}
+
+#carousel {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1000;
+}
+.mui--text-title {
+    font-family: 'HACKED', Arial;
+    color: #F1E6C3;
+    vertical-align: middle;
+    text-shadow: 0px 4px rgba(31, 31, 31, 0.74);
+	font-size: 40px;
+}
+.mui--text-title a:hover, .mui--text-title a:focus {
+	text-decoration: none;
+}
+header a {
+    color: #F1E6C3;
+}
+#appbar-more-vert {
+    color: #F1E6C3;
+}

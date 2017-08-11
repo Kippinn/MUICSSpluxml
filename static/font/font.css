@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'HACKED';
+  src: url('HACKED.eot');
+  src: url('HACKED.woff') format('woff'),
+       url('HACKED.ttf') format('truetype'),
+       url('HACKED.svg#HACKED') format('svg'),
+       url('HACKED.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
